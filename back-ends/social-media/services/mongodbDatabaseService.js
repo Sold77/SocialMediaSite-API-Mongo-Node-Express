@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 // const privateDbUrl = require('../../../private/socialMediaDatabasePrivateURL');
-const privateDbUrl = "mongodb://database";
+const privateDbUrl = "mongodb://back-ends/social-media/services/User.js";
 
 const User = require('./User');
 const Post = require('./Post');
